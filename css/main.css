@@ -1,0 +1,146 @@
+/*****BASE STYLES*****/
+body{
+    color:#000000;
+    font-family: montserrat;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+/***** GRID *****/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+.half-width {
+    float: left;
+    width: 600px;
+}
+.third-width {
+    float: left;
+    width: 375px;
+}
+
+/******HEADER*****/
+
+header {
+    height: 110px;
+}
+header h1{
+
+    color: #000000;
+    font-family: montserrat;
+    font-size: 30px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+
+}
+header h1 span {
+    color: #77a466;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+nav {
+    float:right;
+    font-size: 14px;
+    font-weight: 700;0
+}
+
+nav ul li {
+    display:inline-block;
+    margin: 0;
+	padding: 0 10px;
+
+}
+
+
+nav ul li a{
+    color: #a2bf98;
+    font-family: montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+h2 {
+    color: #a2bf98;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*****PHOTO SECTION*****/
+
+img.image {
+    border-bottom: 3px solid #77a466;
+    border-top: 3px solid #77a466;
+}
+
+/*****BOTTOM SECTION*****/
+
+#todays-specials {
+    border-top: solid;
+    border-color: #dedbdc;
+    border-width: 1px;
+    color:#000000;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#menu {
+    color: #77a466; 
+    text-transform: capitalize;
+    list-style-type: none;
+    text-align: left;
+    font-weight:normal;
+    padding-inline-start: 0px;
+}
+
+#reviews {
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    border-width: 1px;
+    border-color: #dedbdc;
+    padding: 10px;
+
+}
+
+#contact {
+    border-top: solid;
+    border-color: #dedbdc;
+    border-width: 1px;
+    padding: 10px;
+}
+
+/*****FOOTER*****/
+footer h4 {
+    border-color:#dedbdc;
+    border-top: solid;
+    border-top: 3px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    clear: both;
+    font-size: 16pt;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer h4 span {
+    color: #77a466;
+    font-family: galada, cursive;
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+
+
+
+
